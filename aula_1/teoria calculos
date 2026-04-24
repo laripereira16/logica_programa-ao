@@ -1,0 +1,15 @@
+# Pedir 3 notas e armazenar em variaveis diferentes 
+nota1 = float(input("Digite a nota 1: "))
+nota2 = float(input("Digite a nota 2: "))
+nota3 = float(input("Digite a nota 3: "))
+
+soma = nota1 + nota2 + nota3 
+media = soma/3 
+
+print("A media das notas e",media)
+
+if media >= 7:
+    print("Parabens, voce passou!") 
+else:
+    print("Infelizmente voce nao passou, tente novamente!")
+
