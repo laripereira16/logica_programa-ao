@@ -14,6 +14,13 @@ print("Ola, ",nome,"! A sua idade e ",idade)
 # - <= menor ou igual 
 # - ! nao  
 
+# O coomando de decisao e o if 
+# A sintaxe e
+# if comparacao:
+# E os itens a serem executados devem ser estar em um bloco identado.
+# if 20 > 30:
+# print("Algo de errado nao esta certo")
+
 if idade >= 18:
     print("Voce e maior de idde!")
     if idade >= 60:
